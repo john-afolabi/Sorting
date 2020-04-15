@@ -24,7 +24,7 @@ def merge(arrA, arrB):
 def merge_sort(arr):
     # TO-DO
     half = len(arr) // 2
-    if len(arr) == 1:
+    if len(arr) <= 1:
         return arr
     arrA = arr[:half]
     arrB = arr[half:]
